@@ -126,9 +126,9 @@ class BaseAjax
 * Collaborated with designers and front-end developers to create turnkey apps
 
 
-**OOO "Sushi Krai", Food Delivery Company (Voronezh, Russia)**
+**OOO "Sushi Krai", Food Delivery Company (Voronezh, Russia)**<br>
 *Miidle Web Developer*<br>
-*02/2021 - 12/2021*<br>
+*02/2021 - 12/2021*
 
 * 1С database integration
 * Creating API for web and mobile application (ecommerce)
@@ -147,19 +147,19 @@ Commerce (Specialist Degree)
 ## Projects			
 
 
-**https://sushikrai.ru**
+**https://sushikrai.ru**<br>
 A sushi and rolls online store. Integration with 1C database, API development for web and mobile applications, customers loyalty program development, third-party APIs integration
 
-**https://letk.ru**
+**https://letk.ru**<br>
 A transportation company's website. Includes a cargo transportation calculator,	third-party APIs integration
 
-**https://millturn.ru**
+**https://millturn.ru**<br>
 A metalworking equipment online store. 1C integration
 
-**https://xn--80acbooaruzw.xn--p1ai**
+**https://xn--80acbooaruzw.xn--p1ai**<br>
 A  real-life  quests  website  with  a  booking  system.  Integration  with  quest aggregator APIs
 
-**Other projects**
+**Other projects**<br>
 More examples you can see on my web studio page:<br>	
 https://gagara-web.ru/about/portfolio/
 
