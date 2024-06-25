@@ -1,18 +1,23 @@
 # Elena Markova
 
-## PHP Web Developer
+### PHP Web Developer
 
-**fireleit@gmail.com +995 551 51 0841**<br>
+**fireleit@gmail.com**<br>
+**+995 551 51 0841**<br>
 [LinkedIn](https://www.linkedin.com/in/fireleit/)
 [Website](https://gagara-web.ru/about/portfolio/)
 
 
-### Summary
+
+## Summary
+
 
 Development experience - over 5 years. Worked in a team and also managed my own web studio. Professionally engaged in the development of web applications, modules, and extensions for websites and CMS. Develope APIs and integrate third-party APIs into projects.
 
 
-### Professional Skills
+
+## Professional Skills
+
 
 * PHP
 * Laravel Framework
@@ -31,7 +36,8 @@ Development experience - over 5 years. Worked in a team and also managed my own 
 * Magento	
 
  
-### Code example
+## Code example
+
 
 ```
 <?php
@@ -96,7 +102,8 @@ class BaseAjax
 ```
 
 
-### Work experience
+## Work experience
+
 
 **OOO	"MAST", IT Company (Moscow, Russia)**
 __Web Developer__
@@ -128,17 +135,18 @@ __02/2021 - 12/2021__
 * Customer loyality program development and implementation
 
 
+## Education
 
-### Education
-						
+
 Irkutsk State University<br>	
 2000 - 2005<br>
 Commerce (Specialist Degree)
 
 
 
-### Projects			
-						
+## Projects			
+
+
 **sushikrai.ru**
 A sushi and rolls online store. Integration with 1C database, API development for web and mobile applications, customers loyalty program development, third-party APIs integration
 
@@ -156,7 +164,8 @@ More examples you can see on my web studio page:<br>
 https://gagara-web.ru/about/portfolio/
 
 
-### Languages
+## Languages
+
 
 Russian - Native<br>
 English - Intermediate
