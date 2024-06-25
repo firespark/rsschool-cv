@@ -105,18 +105,18 @@ class BaseAjax
 ## Work experience
 
 
-**OOO	"MAST", IT Company (Moscow, Russia)**
-__Web Developer__
-__03/2022 - present__
+**OOO	"MAST", IT Company (Moscow, Russia)**<br>
+*Web Developer*<br>
+*03/2022 - present*
 
 * Web application development
 * Working with designers and front-end developers
 * API implementing
 
 
-**Sole Proprietor**
-__Web Studio Head__
-__04/2020 - present__
+**Sole Proprietor**<br>
+*Web Studio Head*<br>
+*04/2020 - present*
 
 * Developed and maintained web applications and API using PHP
 * Optimized web applications performance
@@ -127,8 +127,8 @@ __04/2020 - present__
 
 
 **OOO "Sushi Krai", Food Delivery Company (Voronezh, Russia)**
-__Miidle Web Developer__
-__02/2021 - 12/2021__
+*Miidle Web Developer*<br>
+*02/2021 - 12/2021*<br>
 
 * 1С database integration
 * Creating API for web and mobile application (ecommerce)
@@ -147,16 +147,16 @@ Commerce (Specialist Degree)
 ## Projects			
 
 
-**sushikrai.ru**
+**https://sushikrai.ru**
 A sushi and rolls online store. Integration with 1C database, API development for web and mobile applications, customers loyalty program development, third-party APIs integration
 
-**letk.ru**
+**https://letk.ru**
 A transportation company's website. Includes a cargo transportation calculator,	third-party APIs integration
 
-**millturn.ru**
+**https://millturn.ru**
 A metalworking equipment online store. 1C integration
 
-**xn--80acbooaruzw.xn--p1ai**
+**https://xn--80acbooaruzw.xn--p1ai**
 A  real-life  quests  website  with  a  booking  system.  Integration  with  quest aggregator APIs
 
 **Other projects**
