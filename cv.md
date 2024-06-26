@@ -1,9 +1,12 @@
 # Elena Markova
 
+![](/profile.jpg)
+
 ### PHP Web Developer
 
 **fireleit@gmail.com**<br>
 **+995 551 51 0841**<br>
+Discord: **@fireleit**<br>
 [LinkedIn](https://www.linkedin.com/in/fireleit/)
 [Website](https://gagara-web.ru/about/portfolio/)
 
