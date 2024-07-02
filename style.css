@@ -1,0 +1,253 @@
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 36px;
+    font-weight: normal;
+    color: #1F497D;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #1F497D;
+}
+
+a {
+    color: #1F497D;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.section-title {
+    text-align: center;
+    overflow: hidden;
+}
+
+.section-title h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-title:before,
+.section-title:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 3px;
+    background-color: #1F497D;
+}
+
+.section-title:before {
+    margin-left: -100%;
+    left: -28px;
+}
+
+.section-title:after {
+    margin-right: -100%;
+    right: -28px;
+}
+
+.blocks-main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.blocks-main .block-left {
+    width: 35%;
+}
+
+.blocks-main .block-right {
+    width: 65%;
+    padding-left: 30px;
+}
+
+.block-left .left-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.block-left .left-text {
+    margin-bottom: 10px;
+}
+
+.block-left .left-dates {
+    font-style: italic;
+}
+
+ul.styled-list {
+    margin: 0;
+}
+
+ul.styled-list li {
+    margin-bottom: 10px;
+}
+
+ul.styled-list li::marker {
+	color: #1F497D;
+}
+
+/***** HEADER *****/
+header {
+    margin-top: 20px;
+    border-bottom: 3px solid #1F497D;
+}
+
+ul.header-menu {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul.header-menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/***** INFO *****/
+
+ul.info-contacts {
+    padding: 0;
+    list-style: none;
+}
+
+ul.info-contacts li{
+    display: inline-flex;
+    align-items: center;
+    margin: 0 30px 10px 0;
+}
+
+img.icon {
+    width: 26px;
+    margin-right: 6px;
+}
+
+/***** SKILLS *****/
+
+.skills-block {
+    display: flex;
+}
+
+ul.skills-list {
+    padding: 0;
+    width: 33.33333333%;
+    list-style: none;
+}
+
+ul.skills-list li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/***** CODE *****/
+
+code {
+    display: inline-block; 
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/***** FOOTER *****/
+
+footer {
+    padding: 20px 0;
+    border-top: 3px solid #1F497D;
+}
+
+.footer-blocks {
+    display: flex;
+}
+
+.footer-block-one {
+    width: 50%;
+}
+
+img.big-icon {
+    width: 80px;
+}
+
+.github-link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.copyright {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .m-visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .m-text-align-center {
+        text-align: center;
+    }
+
+    .blocks-main {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .blocks-main .block-left {
+        width: 100%;
+    }
+
+    .blocks-main .block-right {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    .skills-block {
+        display: block;
+    }
+
+    ul.skills-list {
+        width: 100%;
+        margin: 0;
+    }
+
+}
