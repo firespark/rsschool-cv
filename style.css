@@ -80,6 +80,32 @@ section {
     padding-left: 30px;
 }
 
+.block-left .left-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.block-left .left-text {
+    margin-bottom: 10px;
+}
+
+.block-left .left-dates {
+    font-style: italic;
+}
+
+ul.styled-list {
+    margin: 0;
+}
+
+ul.styled-list li {
+    margin-bottom: 10px;
+
+}
+
+ul.styled-list li::marker {
+	color: #1F497D;
+}
+
 /***** HEADER *****/
 header {
     margin: 20px 0;
@@ -131,3 +157,4 @@ ul.skills-list li {
     text-align: center;
     margin: 10px 0;
 }
+
