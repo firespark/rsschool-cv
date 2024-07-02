@@ -37,6 +37,7 @@ section {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .section-title {
@@ -108,7 +109,7 @@ ul.styled-list li::marker {
 
 /***** HEADER *****/
 header {
-    margin: 20px 0;
+    margin-top: 20px;
     border-bottom: 3px solid #1F497D;
 }
 
@@ -178,7 +179,7 @@ footer {
     display: flex;
 }
 
-.footer-block-left, .footer-block-right {
+.footer-block-one {
     width: 50%;
 }
 
@@ -195,4 +196,46 @@ img.big-icon {
 .copyright {
     margin-top: 10px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .m-display-none {
+        display: none;
+    }
+
+    .m-text-align-center {
+        text-align: center;
+    }
+
+    .blocks-main {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .blocks-main .block-left {
+        width: 100%;
+    }
+
+    .blocks-main .block-right {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .skills-block {
+        display: block;
+    }
+
+    ul.skills-list {
+        width: 100%;
+        margin: 0;
+    }
+
 }
