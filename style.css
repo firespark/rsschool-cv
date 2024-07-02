@@ -16,6 +16,12 @@ h2 {
     margin: 0 0 20px 0;
 }
 
+h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #1F497D;
+}
+
 a {
     color: #1F497D;
 }
@@ -31,6 +37,33 @@ section {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.section-title {
+    overflow: hidden;
+    text-align: center;
+}
+.section-title h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.section-title:before,
+.section-title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 3px;
+    background-color: #1F497D;
+    position: relative;
+}
+.section-title:before {
+    margin-left: -100%;
+    left: -28px;
+}
+.section-title:after {
+    margin-right: -100%;
+    right: -28px;
 }
 
 .blocks-main {
