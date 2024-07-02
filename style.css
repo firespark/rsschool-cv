@@ -98,12 +98,12 @@ ul.header-menu li{
 
 /***** INFO *****/
 
-ul.info-skills {
+ul.info-contacts {
     list-style: none;
     padding: 0;
 }
 
-ul.info-skills li{
+ul.info-contacts li{
     display: inline-flex;
     align-items: center;
     margin: 0 30px 10px 0;
@@ -112,4 +112,22 @@ ul.info-skills li{
 img.icon {
     width: 26px;
     margin-right: 6px;
+}
+
+/***** SKILLS *****/
+
+.skills-block {
+    display: flex;
+}
+
+ul.skills-list {
+    list-style: none;
+    padding: 0;
+    width: 33.33333333%;
+}
+
+ul.skills-list li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
 }
