@@ -1,19 +1,19 @@
 html {
-    scroll-behavior: smooth;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 h1 {
-    color: #1F497D;
-    font-size: 36px;
     margin: 0 0 20px 0;
+    font-size: 36px;
     font-weight: normal;
+    color: #1F497D;
 }
 
 h2 {
-    font-weight: normal;
-    font-size: 26px;
     margin: 0 0 20px 0;
+    font-size: 26px;
+    font-weight: normal;
 }
 
 h3 {
@@ -41,27 +41,31 @@ section {
 }
 
 .section-title {
-    overflow: hidden;
     text-align: center;
+    overflow: hidden;
 }
+
 .section-title h3 {
     display: inline-block;
     vertical-align: middle;
 }
+
 .section-title:before,
 .section-title:after {
     content: "";
+    position: relative;
     display: inline-block;
     vertical-align: middle;
     width: 100%;
     height: 3px;
     background-color: #1F497D;
-    position: relative;
 }
+
 .section-title:before {
     margin-left: -100%;
     left: -28px;
 }
+
 .section-title:after {
     margin-right: -100%;
     right: -28px;
@@ -82,8 +86,8 @@ section {
 }
 
 .block-left .left-title {
-    font-weight: bold;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .block-left .left-text {
@@ -100,7 +104,6 @@ ul.styled-list {
 
 ul.styled-list li {
     margin-bottom: 10px;
-
 }
 
 ul.styled-list li::marker {
@@ -114,9 +117,9 @@ header {
 }
 
 ul.header-menu {
+    padding: 0;
     list-style: none;
     text-align: center;
-    padding: 0;
 }
 
 ul.header-menu li{
@@ -127,8 +130,8 @@ ul.header-menu li{
 /***** INFO *****/
 
 ul.info-contacts {
-    list-style: none;
     padding: 0;
+    list-style: none;
 }
 
 ul.info-contacts li{
@@ -149,15 +152,15 @@ img.icon {
 }
 
 ul.skills-list {
-    list-style: none;
     padding: 0;
     width: 33.33333333%;
+    list-style: none;
 }
 
 ul.skills-list li {
     display: block;
-    text-align: center;
     margin: 10px 0;
+    text-align: center;
 }
 
 /***** CODE *****/
@@ -171,8 +174,8 @@ code {
 /***** FOOTER *****/
 
 footer {
-    border-top: 3px solid #1F497D;
     padding: 20px 0;
+    border-top: 3px solid #1F497D;
 }
 
 .footer-blocks {
@@ -206,8 +209,17 @@ img.big-icon {
 }
 
 @media screen and (max-width: 576px) {
-    .m-display-none {
-        display: none;
+    .m-visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
     }
 
     .m-text-align-center {
@@ -225,8 +237,8 @@ img.big-icon {
 
     .blocks-main .block-right {
         width: 100%;
-        padding-left: 0;
         margin-top: 20px;
+        padding-left: 0;
     }
 
     .skills-block {
