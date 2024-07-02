@@ -158,3 +158,10 @@ ul.skills-list li {
     margin: 10px 0;
 }
 
+/***** CODE *****/
+
+code {
+    display: inline-block; 
+    max-width: 100%;
+    overflow-x: auto;
+}
