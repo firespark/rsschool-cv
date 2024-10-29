@@ -33,12 +33,12 @@ Development experience - over 5 years. Worked in a team and also managed my own 
 * SOAP Protocol
 * Web Services
 * Wordpress API
-* 1C-Bitrix framework	
+* 1C-Bitrix framework
 * OpenCart
 * MODx
-* Magento	
+* Magento
 
- 
+
 ## Code example
 
 
@@ -46,12 +46,12 @@ Development experience - over 5 years. Worked in a team and also managed my own 
 <?php
 
 class BaseAjax
-{    
+{
     protected $post;
     protected $success;
     protected $output;
 
-    
+
     public function __construct(array $post)
     {
 
@@ -69,7 +69,7 @@ class BaseAjax
             return true;
         }
         return false;
-        
+
     }
 
 
@@ -84,7 +84,7 @@ class BaseAjax
     protected function setOutputMessage(string $message) {
         $this->output = $message;
     }
-        
+
     public function is_success(): bool
     {
         return $this->success;
@@ -95,7 +95,7 @@ class BaseAjax
         if($this->validate()){
 
             $this->setSuccess();
-            
+
         }
 
         return json_encode(['success' => $this->success, 'output' => $this->output]);
@@ -141,13 +141,13 @@ class BaseAjax
 ## Education
 
 
-Irkutsk State University<br>	
+Irkutsk State University<br>
 2000 - 2005<br>
 Commerce (Specialist Degree)
 
 
 
-## Projects			
+## Projects
 
 
 **https://sushikrai.ru**<br>
@@ -163,7 +163,7 @@ A metalworking equipment online store. 1C integration
 A  real-life  quests  website  with  a  booking  system.  Integration  with  quest aggregator APIs
 
 **Other projects**<br>
-More examples you can see on my web studio page:<br>	
+More examples you can see on my web studio page:<br>
 https://gagara-web.ru/about/portfolio/
 
 
