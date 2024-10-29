@@ -45,7 +45,7 @@
                             </li>
                             <li>
                                 <img class="icon" src="img/icons/phone-call.png" alt="Phone icon">
-                                <a href="tel:+995551510841" target="_blank">+995 551 51 0841</a>
+                                <a href="tel:+995551510841" target="_blank">+995&nbsp;551&nbsp;51&nbsp;0841</a>
                             </li>
                             <li>
                                 <img class="icon" src="img/icons/maps-and-flags.png" alt="Location icon">
@@ -294,44 +294,44 @@ class BaseAjax
     protected $output;
 
     public function __construct(array $post) {
-        $this->post = $post;
-        $this->success = false;
-        $this->output = __('Errors occurred during script execution. 
-        Please inform the site administrator about this issue', 
+        $this-&gt;post = $post;
+        $this-&gt;success = false;
+        $this-&gt;output = __('Errors occurred during script execution.
+        Please inform the site administrator about this issue',
         'lasertag');
     }
 
     protected function validate(): bool {
-        if(!empty($this->post)) {
+        if(!empty($this-&gt;post)) {
             return true;
         }
         return false;
     }
 
     protected function setSuccess() {
-        $this->success = true;
+        $this-&gt;success = true;
     }
 
     protected function setUnSuccess() {
-        $this->success = false;
+        $this-&gt;success = false;
     }
 
     protected function setOutputMessage(string $message) {
-        $this->output = $message;
+        $this-&gt;output = $message;
     }
                                 
     public function is_success(): bool {
-        return $this->success;
+        return $this-&gt;success;
     }
 
     public function get_output() {
-        if($this->validate()){
-            $this->setSuccess();
+        if($this-&gt;validate()){
+            $this-&gt;setSuccess();
         }
 
         return json_encode([
-            'success' => $this->success, 
-            'output' => $this->output
+            'success' =&gt; $this-&gt;success,
+            'output' =&gt; $this-&gt;output
         ]);
     }
 
